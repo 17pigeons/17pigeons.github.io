@@ -1,0 +1,471 @@
+/* webkit scrollbar */
+::-webkit-scrollbar {
+       background-color: #111111;
+       width: 10px;
+       height: 10px;
+   }
+
+   ::-webkit-scrollbar-thumb {
+       background-color: #666;
+   }
+
+   ::-webkit-scrollbar-thumb:hover {
+       background-color: #999;
+       border-radius: 3px;
+   }
+
+   ::-webkit-scrollbar-thumb:active {
+       background-color: #ccc;
+       border-radius: 5px;
+   }
+
+   ::-webkit-scrollbar-corner {
+       color: #666;
+   }
+
+   /* navbar */
+
+   .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+     background-color: transparent !important;
+     border: 0px;
+     padding-top: 31px;
+   }
+
+   .nav:not(.nav-tabs)>li>a:focus, .nav:not(.nav-tabs)>li>a:hover {
+     background-color: transparent;
+   }
+
+   .icon-bar {
+     background-color: black !important;
+   }
+
+   .navbar-default {
+     margin-left: 40px;
+     margin-right: 40px;
+     border-radius: 0px;
+     background-color: transparent;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+     border-left: transparent;
+     border-right: transparent;
+     margin-top: 40px;
+     height: 100px;
+   }
+
+   div.navbar-cfl, div.navbar-header, a.navbar-brand, ul.navbar-nav, ul.navbar-nav > li, ul.navbar-nav > li > a {
+     height: 100px;
+   }
+
+   ul.navbar-nav > li > a {
+     padding-top: 37px;
+     width: 150px;
+     text-align: center;
+     font-size: 24px;
+     color: black !important;
+     transition: all 0.25s ease-out;
+   }
+
+   ul.navbar-nav > li > a:hover {
+     color: #D8490B !important;
+   }
+
+   a.navbar-brand {
+     padding-top: 37px;
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Bitter';
+     color: black !important;
+     transition: all 0.25s ease-out;
+   }
+
+   a.navbar-brand:hover {
+     color: #D8490B !important;
+   }
+
+   @media screen and (max-width: 779px) {
+
+     ul.navbar-nav > li > a {
+       width: 100px;
+     }
+
+   }
+
+   @media screen and (max-width: 810px) {
+
+     a.navbar-brand {
+       font-size: 24px;
+     }
+
+     ul.navbar-nav > li > a {
+       font-size: 20px;
+     }
+
+   }
+
+   @media screen and (max-width: 767px) {
+
+     a.navbar-brand {
+       font-size: 40px;
+     }
+
+     ul.navbar-nav > li {
+       height: 50px;
+     }
+
+     ul.navbar-nav > li > a {
+       background-color: white;
+       float: right;
+       height: 50px;
+       padding-top: 15px;
+       text-align: center;
+     }
+
+     ul.navbar-nav > li > a:hover {
+       background-color: white !important;
+     }
+
+   }
+
+   @media screen and (max-width: 466px) {
+     a.navbar-brand {
+       font-size: 28px;
+     }
+
+     a.navbar-brand > img {
+       display: none;
+     }
+   }
+
+   div.contact > div > form > textarea {
+     width: 600px;
+   }
+
+   @media screen and (max-width: 684px) {
+     div.contact > div > form > textarea {
+       width: 100%;
+     }
+   }
+
+   @media screen and (min-width: 1010px) {
+
+   ul.nav:not(.nav-tabs) li:after {
+       height: 0px;
+       width: 100%;
+       content:"";
+       display: block;
+       background-color: #D8490B;
+       transition: 0.25s ease-out;
+     }
+
+   ul.nav:not(.nav-tabs) > li:hover:after {
+     height: 97px;
+     margin-top: -100px;
+   }
+
+   ul.nav:not(.nav-tabs) > li.no-hover:hover:after {
+   height: inherit;
+   margin-top: inherit;
+   }
+
+   ul.navbar-nav > li > a {
+     padding-top: 37px;
+     width: 200px;
+     text-align: center;
+     font-size: 30px;
+     color: black !important;
+     transition: all 0.25s ease-out;
+   }
+
+   ul.navbar-nav > li > a:hover {
+     color: white !important;
+   }
+
+   a.navbar-brand {
+     font-size: 40px;
+   }
+
+}
+   /*other stuff*/
+
+   h1, h2, h3, h4, h5, h6 {
+     font-family: 'Bitter';
+   }
+
+   p, a, div, li {
+     font-family: 'Montserrat';
+   }
+
+   div.previews {
+     width: 100%;
+     height: 250px;
+     background-color: #5A4D89;
+     color: white;
+   }
+
+   @media screen and (max-width: 747px) {
+     div.previews > h1 {
+       font-size: 30px;
+     }
+   }
+
+   @media screen and (max-width: 628px) {
+     div.previews > h1 {
+       font-size: 26px;
+     }
+   }
+
+   @media screen and (max-width: 550px) {
+     div.previews > h1 {
+       font-size: 20px;
+     }
+   }
+
+   div.about-image {
+     background-image: url(../IMG/logo.png);
+     background-color: black;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     height: 400px;
+   }
+
+   div.about-text {
+     height: 400px;
+     background-color: #316766;
+     color: white;
+   }
+
+   div.music-embed {
+     height: 400px;
+     background-color: #5A4D89;
+   }
+
+   div.music-text {
+     background-color: #D8490B;
+     height: 400px;
+     color: white;
+   }
+
+   div.contact {
+     background-color: #316766;
+     color: white;
+     width: 100%;
+     padding-bottom: 20px;
+   }
+
+   div.about {
+     height: 400px;
+   }
+
+   div.music {
+     height: 400px;
+   }
+
+   @media screen and (max-width: 991px) {
+     div.music, div.about {
+       height: 800px;
+     }
+
+     div.about-text, div.music-text {
+       margin-top: -20px;
+     }
+
+     div.about-text > h2, div.music-text > h2 {
+       padding-top: 20px;
+       margin-bottom: -10px;
+     }
+   }
+
+   input.form-control, textarea.form-control {
+     margin: 0px 0px 5px 0px !important;
+   }
+
+   hr.small {
+     width: 200px;
+     border: 3px solid white;
+   }
+
+   .btn-social {
+     border-radius: 0px;
+     border: 0px;
+     transition: 0.25s ease-out;
+     color: white;
+     padding: 10 10px 10px 10px;
+     width: 150px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+     border-radius: 30px;
+   }
+
+   .btn-social:hover {
+     background-color: white;
+     color: black;
+   }
+
+   .btn-facebook {
+     background-color: #3b5998;
+     color: white;
+   }
+
+   .btn-twitter {
+     background-color: #1da1f2;
+     color: white;
+   }
+
+   .btn-snapchat {
+     background-color: #fffc00;
+     color: black;
+   }
+
+   .btn-soundcloud {
+     background-color: #ff8800;
+     color: white;
+   }
+
+   .btn-spotify {
+     background-color: #2ebd59;
+     color: white;
+   }
+
+   .btn-bandcamp {
+     background-color: #629aa9;
+     color: white;
+   }
+
+   .btn-amazon {
+     background-color: #146eb4;
+     color: white;
+   }
+
+   .btn-download {
+     background-color: #666;
+     color: white;
+   }
+
+   i.social-icon {
+     margin-right: 23px;
+     margin-top: 3px;
+   }
+
+   div.social-buttons {
+     margin: auto;
+     text-align: center;
+   }
+
+   @media screen and (max-width: 991px) {
+     .btn-social {
+       margin-left: 5px;
+       margin-right: 5px;
+     }
+   }
+
+   .music-main {
+     background-color: #D8490B;
+     padding: 35px;
+     margin-bottom: 20px;
+   }
+
+   .music-header {
+     padding: 20px;
+     background-color: #5A4D89;
+   }
+
+   .music-release {
+     max-width: 100%;
+     max-height: 100%;
+     display: block;
+     margin-bottom: 10px;
+   }
+
+   img.music-release {
+     margin: auto;
+   }
+
+   .release-hover {
+     color: #fff;
+     opacity: 0;
+     display: block;
+     background: transparent;;
+     position: absolute;
+     bottom: 0;
+     text-align: center;
+     width: 100%;
+     height: 100%;
+     transition: 0.25s ease-out;
+   }
+
+   .music-release .release-hover .release-hover-content {
+     width: 100%;
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+   }
+
+   .music-release .release-hover .release-hover-content .song-title, .music-release.release-hover .release-hover-content .song-info {
+     font-family: 'Montserrat';
+     font-size: 20px;
+     padding: 0 15px;
+   }
+
+   .music-release .release-hover .release-hover-content .song-title {
+     font-family: 'Bitter';
+     font-size: 20px;
+   }
+
+   .music-release .release-hover .release-hover-content .song-info {
+     font-size: 16px;
+   }
+
+   .music-release:hover .release-hover
+   {
+     opacity: 1;
+   }
+
+   .song-title, .song-title:hover {
+     color: white;
+     text-decoration: none;
+     width: 100%;
+   }
+
+   a:hover {
+     text-decoration: none;
+   }
+
+   .about-page {
+     background-color: #316766;
+     color: white;
+     padding-left: 40px;
+     padding-right: 40px;
+   }
+
+   div.about-text > p > a, div.music-text > p > a {
+     color: white;
+     text-decoration: underline;
+   }
+
+   div.song-title {
+     max-width: 500px;
+     margin: auto;
+   }
+
+   .readmore {
+     background-color: transparent;
+     color: white;
+     border-radius: 60px;
+     border: 3px solid white;
+     transition: 0.25s ease-out;
+   }
+
+   .readmore:hover {
+     background-color: white;
+     color: black;
+     border: 3px solid white;
+   }
+
+   @media screen and (max-width: 991px) {
+     div.music-header > .container-fluid > .row > div > h3 {
+       display: none;
+     }
+   }
