@@ -128,7 +128,7 @@
 
    @media screen and (max-width: 466px) {
      a.navbar-brand {
-       font-size: 28px;
+       font-size: 24px;
      }
 
      a.navbar-brand > img {
@@ -474,3 +474,8 @@
        display: none;
      }
    }
+
+   #about p, #music p {     line-height: 2em; }
+#about p:last-of-type, #music p:last-of-type {
+    margin-bottom: 2em;
+}
