@@ -474,8 +474,3 @@
        display: none;
      }
    }
-
-   #about p, #music p {     line-height: 2em; }
-#about p:last-of-type, #music p:last-of-type {
-    margin-bottom: 2em;
-}
